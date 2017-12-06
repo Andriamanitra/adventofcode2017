@@ -15,4 +15,6 @@ Day 4: Kotlin
 
 Day 5: Lua
 
-Day 6: ?
+Day 6: Go
+
+Day 7: ?
