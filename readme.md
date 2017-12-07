@@ -17,4 +17,6 @@ Day 5: Lua
 
 Day 6: Go
 
-Day 7: ?
+Day 7: Rust
+
+Day 8: ?
