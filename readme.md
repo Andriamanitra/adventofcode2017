@@ -19,4 +19,6 @@ Day 6: Go
 
 Day 7: Rust
 
-Day 8: ?
+Day 8: Clojure
+
+Day 9: ?
