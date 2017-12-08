@@ -1,14 +1,14 @@
 (use '[clojure.string :only (join split trim-newline)])
 (def data (slurp "8-input.txt"))
 (def lines (mapv #(trim-newline %) (split data #"\n")))
+(def operator-map {"!=" not= "==" = "<=" <= ">=" >= ">" > "<" <})
 
 (defn compute-one [varmap instr]
-  (let [operator (clojure.string/replace (instr 5) #"!" "not")
+  (let [operator (get operator-map (instr 5))
         left-operand (get varmap (instr 4) 0)
         right-operand (read-string (instr 6))
-        operation (join " " ["(" operator left-operand right-operand ")"])
         increment (read-string (instr 2))]
-    (if (eval (read-string operation))
+    (if (operator left-operand right-operand)
       (if (= (instr 1) "inc")
         (assoc varmap (instr 0) (+ (get varmap (instr 0) 0) increment))
         (assoc varmap (instr 0) (- (get varmap (instr 0) 0) increment)))
