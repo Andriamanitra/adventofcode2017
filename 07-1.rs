@@ -31,7 +31,7 @@ fn get_children(children_string: String) -> Vec<String> {
 }
 
 fn main() {
-    let mut file = File::open("7-input.txt")
+    let mut file = File::open("07-input.txt")
         .expect("Unable to open the file");
     
     let mut contents = String::new();

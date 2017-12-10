@@ -1,5 +1,5 @@
 (use '[clojure.string :only (join split trim-newline)])
-(def data (slurp "8-input.txt"))
+(def data (slurp "08-input.txt"))
 (def lines (mapv #(trim-newline %) (split data #"\n")))
 (def operator-map {"!=" not= "==" = "<=" <= ">=" >= ">" > "<" <})
 

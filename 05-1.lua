@@ -1,5 +1,5 @@
 containing_folder = string.match(arg[0], '.*\\')
-file = io.open(containing_folder .. "5-input.txt")
+file = io.open(containing_folder .. "05-input.txt")
 
 arr = {}
 while true do

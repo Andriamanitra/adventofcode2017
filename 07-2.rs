@@ -58,7 +58,7 @@ fn get_weight_of(node: &String, nodes: &HashMap<String, Node>) -> i32 {
 }
 
 fn main() {
-    let mut file = File::open("7-input.txt")
+    let mut file = File::open("07-input.txt")
         .expect("Unable to open the file");
     
     let mut contents = String::new();

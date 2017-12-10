@@ -1,7 +1,7 @@
 import java.io.File
 
 fun main(args: Array<String>) {
-    val inputfile = File("4-input.txt")
+    val inputfile = File("04-input.txt")
     val text:List<String> = inputfile.bufferedReader().readLines()
 
     var valids = 0

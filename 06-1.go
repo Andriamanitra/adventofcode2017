@@ -30,7 +30,7 @@ func strep(slc []int) string {
 
 func main() {
 	// read the input to int slice (intSlice)
-	f, err := ioutil.ReadFile("6-input.txt")
+	f, err := ioutil.ReadFile("06-input.txt")
 	if err != nil {
 		fmt.Println("reading file failed:", err)
 	}

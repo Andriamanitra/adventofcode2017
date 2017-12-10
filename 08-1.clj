@@ -2,7 +2,7 @@
 ;; 8-2.clj should be better
 
 (use '[clojure.string :only (join split trim-newline)])
-(def data (slurp "8-input.txt"))
+(def data (slurp "08-input.txt"))
 (def lines (mapv #(trim-newline %) (split data #"\n")))
 
 (defn compute-one [varmap instr]

@@ -6,7 +6,7 @@
 if [ $# -gt 0 ]; then
     input=$1
 else
-    input=$(<9-input.txt)
+    input=$(<09-input.txt)
 fi
 
 escapere="([^!]*)!.(.*)"

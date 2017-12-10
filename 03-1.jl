@@ -6,7 +6,7 @@ function dist_to_center_from(target::Int)
     return corner_to_center-target_to_corner
 end
 
-f = open("3-input.txt")
+f = open("03-input.txt")
 target = parse(Int, readstring(f))
 
 result = dist_to_center_from(target)

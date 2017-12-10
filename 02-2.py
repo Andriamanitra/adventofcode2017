@@ -1,4 +1,4 @@
-with open("2-input.txt", "r") as f:
+with open("02-input.txt", "r") as f:
     data = f.read()
 
 table = [[int(y) for y in x.split()] for x in data.splitlines()]

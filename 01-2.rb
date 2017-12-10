@@ -1,4 +1,4 @@
-list = File.read("1-input.txt").split("")
+list = File.read("01-input.txt").split("")
 
 sum = 0
 halfway = list.length/2

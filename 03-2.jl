@@ -50,7 +50,7 @@ function main()
     #print_matrix(STDOUT, grid[2:(size(grid,1)-1), 2:(size(grid,2)-1)]);println()
 end
 
-f = open("3-input.txt")
+f = open("03-input.txt")
 target = parse(Int, readstring(f))
 main()
 println("First number bigger than target ($target) is $result")
