@@ -24,4 +24,4 @@ check := method(x,
 
 check(start)
 
-groupsize println
+("Group size for " .. start .. " is " .. groupsize) println

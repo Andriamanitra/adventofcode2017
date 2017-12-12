@@ -27,4 +27,4 @@ dict keys foreach(i, v,
     )
 )
 
-groups println
+("Found " .. groups .. " different groups") println
