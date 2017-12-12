@@ -8,7 +8,6 @@ lines foreach(i, v,
     dict atPut(nums first, nums last split(", "))
 )
 
-start := "0"
 set := Map clone
 check := method(x,
     dict at(x) foreach(i, v,
