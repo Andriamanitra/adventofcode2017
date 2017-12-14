@@ -8,8 +8,8 @@ PROGRAM day13
     USE sharedVars
     ! IMPLICIT NONE makes sure all variables are declared
     IMPLICIT NONE
+
     ! All type declaration statements should be before executable statements
-    
     integer :: i
     integer :: j
     integer :: g
@@ -57,7 +57,9 @@ END PROGRAM day13
 
 SUBROUTINE guardsWalk
     USE sharedVars
+
     IMPLICIT NONE
+
     integer :: i
     integer :: g
     DO i = 0,100

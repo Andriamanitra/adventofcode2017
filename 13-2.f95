@@ -4,10 +4,11 @@ END MODULE sharedVars
 
 PROGRAM day13
     USE sharedVars
+
     ! IMPLICIT NONE makes sure all variables are declared
     IMPLICIT NONE
+
     ! All type declaration statements should be before executable statements
-    
     logical :: caught = .FALSE.
     integer :: i
     integer :: j
@@ -43,7 +44,9 @@ END PROGRAM day13
 
 SUBROUTINE tryWithDelay(x, caught)
     USE sharedVars
+
     IMPLICIT NONE
+
     integer, intent(in) :: x
     logical, intent(out) :: caught
     integer :: i
