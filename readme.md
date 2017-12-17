@@ -37,4 +37,6 @@ Day 15: Prolog
 
 Day 16: Tcl
 
-Day 17: ?
+Day 17: D
+
+Day 18: ?
