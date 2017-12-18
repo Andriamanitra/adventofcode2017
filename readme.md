@@ -39,4 +39,6 @@ Day 16: Tcl
 
 Day 17: D
 
-Day 18: ?
+Day 18: Scala
+
+Day 19: ?
