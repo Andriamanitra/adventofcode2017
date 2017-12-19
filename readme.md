@@ -41,4 +41,6 @@ Day 17: D
 
 Day 18: Scala
 
-Day 19: ?
+Day 19: Javascript
+
+Day 20: ?
