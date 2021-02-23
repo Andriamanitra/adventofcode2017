@@ -39,8 +39,10 @@ Day 16: Tcl
 
 Day 17: D
 
-Day 18: Scala
+Day 18: Scala (part 2 incomplete)
 
 Day 19: Javascript
 
-Day 20: ?
+Day 20: Nim (part 2 incomplete)
+
+Day 21: ?
