@@ -45,4 +45,6 @@ Day 19: Javascript
 
 Day 20: Nim (part 2 incomplete)
 
-Day 21: ?
+Day 21: Haskell
+
+Day 22: ?
