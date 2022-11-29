@@ -47,4 +47,6 @@ Day 20: Nim (part 2 incomplete)
 
 Day 21: Haskell
 
-Day 22: ?
+Day 22: Janet
+
+Day 23: ?
